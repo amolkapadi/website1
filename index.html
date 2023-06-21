@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Bootstrap 5 ICON link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Hello, world!</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .first_col {
+            position: relative;
+            top: 191px;
+            left: 60px;
+        }
+
+        .row-last {
+            position: relative !important;
+            left: 371px;
+            top: 50px;
+        }
+
+        .about-heading {
+            margin-top: 100px;
+            color: white;
+            font-family: 'SF UI Display';
+        }
+
+        .bg-about {
+            width: 221px;
+            height: 460px;
+            background: linear-gradient(267.44deg, #40B4A0 33.46%, #2D949F 188.02%, #1E7A9E 315.77%);
+            position: absolute;
+            top: 126px;
+            left: -1px;
+        }
+
+        .about-row {
+            height: 739.09px;
+        }
+
+        .bg-second-row {
+            background: #0D2638;;
+        }
+        .w-75 {
+            width: 90%!important;
+             padding-left: 117px;
+        }
+
+@media only screen and (max-width: 600px) {
+    .first_col {
+            position: relative;
+            top: 1px !important;
+            left: 0px !important;
+        }
+
+        .row-last {
+            position: relative !important;
+            left: 0px;
+            top: 12px !important;
+        }
+        .bg-about{
+            display: none;
+        }
+        .w-75 {
+            width: 90%!important;
+             padding-left: 1px !important;
+        }
+}
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row row-cols-1 row-cols-md-2 g-4 about-row">
+            <div class="col">
+                <div class="row mt-4 g-3">
+                    <div class="bg-about"></div>
+                    <div class="col-md-6 first_col ">
+                        <img src="./Rectangle 14.png" class="img-fluid">
+                    </div>
+                    <div class="col-md-6 sec_col">
+                        <img src="./Rectangle 12.png" class="img-fluid">
+                    </div>
+                </div>
+                <div class="row-last">
+                    <img src="./Rectangle 13.png" class="img-fluid">
+                </div>
+            </div>
+            <div class="bg-second-row">
+                <div class="col">
+                 <div class="w-75">
+                    <h1 class="about-heading">Who We Are</h1>
+                    <p style="color: #2AB57D;font-weight: 600;font-size: 25px;line-height: 30px;font-family: 'SF UI Display';">Our identity encompasses more than a tech company</p>
+                    <p style="color: white;font-size: 17px;line-height: 32px; font-family: 'SF UI  Text';">We are an innovative software product
+                        development company focusing on modern digital capabilities and data-driven methodologies to
+                        enhance efficiency and value. We help our customer to realize their investments, while working
+                        with customer focus, integrity, and insight; there by becoming the trusted technology partner in
+                        our customers’ digital transformation journey.</p>
+                        <p style="color: #2AB57D;font-weight: 600;font-size: 20px;line-height: 30px;margin-top: 80PX;font-family: 'Montserrat';">Learn more about us <i class="bi bi-arrow-right "></i></p>
+                 </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
